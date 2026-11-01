@@ -12,13 +12,15 @@ An independent companion for Listen to Church that records selected live church 
 
 ## Features
 
+- Instant search of your imported church list by name, location, or stream alias, with a Clear button and result count.
+
 - Live online/offline status, church-local and personal clocks, time differences, and optional next-service times.
 - Automatic recording of selected live MP3 streams and MP3 export.
 - Eight theme modes, custom colors and fonts, size and layout controls, named profiles, and settings import/export.
 - Account controls and update settings in Settings.
 - Automatic update checks and optional Wi-Fi downloads. Android asks before installing an update; stop monitoring first.
 
-The 0.2.0 personal preview passes 40 automated checks, including Android screen simulation and rendering. Real-account sign-in, full live-service recording, long background operation, and the phone's update installer still need device verification. Monitoring needs internet, battery, and free storage; Android can stop background apps.
+The 0.2.1 personal preview passes 46 automated checks, including Android screen simulation and rendering. Real-account sign-in, full live-service recording, long background operation, and the phone's update installer still need device verification. Monitoring needs internet, battery, and free storage; Android can stop background apps.
 
 This repository hosts APKs, release notes, and the public `update.json` feed. App sessions, recordings, and signing keys are not published here. No GitHub login is needed on the phone for updates.
 
