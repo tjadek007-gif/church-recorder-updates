@@ -1,0 +1,8 @@
+{
+  "applicationId": "com.churchrecorder.app",
+  "versionCode": 3,
+  "versionName": "0.2.0",
+  "apkUrl": "https://github.com/tjadek007-gif/church-recorder-updates/releases/download/v0.2.0/Church-Recorder-0.2.0.apk",
+  "sha256": "bdb6554989158d4bf64c13885909ed105e5283451d46af59d0981bfaa13446d9",
+  "notes": "Church Recorder 0.2.0\n\n- Automatic update checks and optional Wi-Fi downloads from the app's GitHub release feed. Android asks before installing.\n- Live online/offline status for every imported church, including when recording is off. Old or unavailable status is identified.\n- Church-local and personal clocks, daylight-saving-aware time differences, and optional weekly service times with the next start in both zones.\n- Settings for account sign-in/import and sign-out.\n- Eight theme modes, custom colors, fonts, text size, spacing, corner radius, button style, clock options, sorting, filters, and startup screen.\n- Named customization profiles and settings export/import.\n- Configurable live-check interval, Wi-Fi-only recording, maximum recording length, and storage reserve.\n\nInstall this version once over the existing app to enable future updates. Set each church's time zone in Church settings. Email-link sign-in is available for Google-linked accounts. This personal preview still needs a full live-recording and installation check on the phone."
+}
