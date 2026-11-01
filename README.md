@@ -7,12 +7,13 @@ An independent companion for Listen to Church that records selected live church 
 1. Open [Releases](https://github.com/tjadek007-gif/church-recorder-updates/releases) on your Android phone and download the newest `Church-Recorder-*.apk` asset. Android 8.0 or later is required.
 2. Install it over the existing Church Recorder app. Keep the existing app installed so its recordings and settings remain.
 3. Open **Settings → Sign in / import bookmarks**. Google-linked accounts can use **Email me a sign-in link** with the same email address, then copy the emailed link without opening it and paste it into the app.
-4. In **Church settings**, choose the church's actual time zone and optionally enter its weekly service times.
+4. Matching churches receive Telegram location groups and automatic time zones. In **Church settings**, optionally override the zone or enter weekly service times.
 5. Select churches and start monitoring. Saved recordings appear under **Recordings**.
 
 ## Features
 
-- Instant search of your imported church list by name, location, or stream alias, with a Clear button and result count.
+- Instant text search plus country and state/province filters, with a Clear button and result count.
+- Original Telegram location groups and automatic time zones, including city exceptions and bundled IANA 2026f rules. Existing manual zones remain.
 
 - Live online/offline status, church-local and personal clocks, time differences, and optional next-service times.
 - Automatic recording of selected live MP3 streams and MP3 export.
@@ -20,7 +21,7 @@ An independent companion for Listen to Church that records selected live church 
 - Account controls and update settings in Settings.
 - Automatic update checks and optional Wi-Fi downloads. Android asks before installing an update; stop monitoring first.
 
-The 0.2.1 personal preview passes 46 automated checks, including Android screen simulation and rendering. Real-account sign-in, full live-service recording, long background operation, and the phone's update installer still need device verification. Monitoring needs internet, battery, and free storage; Android can stop background apps.
+The 0.3.0 personal preview passes 61 automated checks, including Android screen simulation and rendering. Real-account sign-in, full live-service recording, long background operation, and the phone's update installer still need device verification. Monitoring needs internet, battery, and free storage; Android can stop background apps.
 
 This repository hosts APKs, release notes, and the public `update.json` feed. App sessions, recordings, and signing keys are not published here. No GitHub login is needed on the phone for updates.
 
