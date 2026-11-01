@@ -1,8 +1,8 @@
 {
   "applicationId": "com.churchrecorder.app",
-  "versionCode": 4,
-  "versionName": "0.2.1",
-  "apkUrl": "https://github.com/tjadek007-gif/church-recorder-updates/releases/download/v0.2.1/Church-Recorder-0.2.1.apk",
-  "sha256": "9c0ddb07c3379eb0794f462ccd1fd4a7d4afb2c6cc574ac16cb84e43cdc16330",
-  "notes": "Church Recorder 0.2.1\n\n- Search your imported church list instantly by church name, location, or stream alias.\n- Search ignores capitalization and accents, and supports multiple words.\n- A pinned search field, Clear button, result count, and helpful no-match message make large lists easier to navigate.\n- Existing selected/online filters and recording selections are preserved. Search text survives returning to the screen and activity recreation.\n- Status refreshes update the results without replacing the search input while you type.\n\nInstall over the existing app, or use Settings → Check for updates now in version 0.2.0. Android asks before installing. This personal preview still needs a full phone check."
+  "versionCode": 5,
+  "versionName": "0.3.0",
+  "apkUrl": "https://github.com/tjadek007-gif/church-recorder-updates/releases/download/v0.3.0/Church-Recorder-0.3.0.apk",
+  "sha256": "dbedb1cec52f61aac38908d0b63be395efac163b607e4c3d1f0d18a20cab8fd5",
+  "notes": "Church Recorder 0.3.0\n\n- Organize imported streams under the exact country/state/province labels collected from Telegram.\n- Filter by country/category and state/province alongside text search. State/province options follow the selected country, and Clear resets the search filters.\n- Automatically assign time zones to matching streams using the Telegram labels and city-specific exceptions. Existing manual time zones are preserved, with a one-tap option to restore the automatic zone.\n- Bundle IANA 2026f time-zone rules for the mapped zones, including recent Canadian changes, so older Android data does not give incorrect local clocks or service-time conversions.\n- Support the Red Oak stream's space-containing alias during bookmark import.\n\nThe directory maps 244 Listen to Church aliases into 53 source groups, with 242 automatic geographic zones. Singing relays have no inferred location; streams missing from the source stay clearly unlabeled. No new streams are automatically added or selected for recording. Data applies to existing imports on update.\n\nUse Settings \u2192 Check for updates now, or install this APK over the existing app. Android asks before installing. Full phone verification remains."
 }
