@@ -1,8 +1,8 @@
 {
   "applicationId": "com.churchrecorder.app",
-  "versionCode": 5,
-  "versionName": "0.3.0",
-  "apkUrl": "https://github.com/tjadek007-gif/church-recorder-updates/releases/download/v0.3.0/Church-Recorder-0.3.0.apk",
-  "sha256": "dbedb1cec52f61aac38908d0b63be395efac163b607e4c3d1f0d18a20cab8fd5",
-  "notes": "Church Recorder 0.3.0\n\n- Organize imported streams under the exact country/state/province labels collected from Telegram.\n- Filter by country/category and state/province alongside text search. State/province options follow the selected country, and Clear resets the search filters.\n- Automatically assign time zones to matching streams using the Telegram labels and city-specific exceptions. Existing manual time zones are preserved, with a one-tap option to restore the automatic zone.\n- Bundle IANA 2026f time-zone rules for the mapped zones, including recent Canadian changes, so older Android data does not give incorrect local clocks or service-time conversions.\n- Support the Red Oak stream's space-containing alias during bookmark import.\n\nThe directory maps 244 Listen to Church aliases into 53 source groups, with 242 automatic geographic zones. Singing relays have no inferred location; streams missing from the source stay clearly unlabeled. No new streams are automatically added or selected for recording. Data applies to existing imports on update.\n\nUse Settings \u2192 Check for updates now, or install this APK over the existing app. Android asks before installing. Full phone verification remains."
+  "versionCode": 6,
+  "versionName": "0.3.1",
+  "apkUrl": "https://github.com/tjadek007-gif/church-recorder-updates/releases/download/v0.3.1/Church-Recorder-0.3.1.apk",
+  "sha256": "28f01c4975a9330a2a807c467b01d250e8a82aaddf68d48d0452fa93313ae226",
+  "notes": "Church Recorder 0.3.1\n\n- Pace status and metadata API requests across the library and recorder to prevent large lists exceeding the website request limit.\n- Respect HTTP 429 Retry-After cooldowns, including queued checks and the Refresh button.\n- Show a website request-limit message instead of a misleading connection/access error.\n- Check selected churches first in the library queue. Large lists refresh gradually within the website budget.\n\nInstall over your existing app. Settings, selections and recordings remain. Physical-phone verification remains."
 }
