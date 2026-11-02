@@ -1,8 +1,8 @@
 {
   "applicationId": "com.churchrecorder.app",
-  "versionCode": 7,
-  "versionName": "0.3.2",
-  "apkUrl": "https://github.com/tjadek007-gif/church-recorder-updates/releases/download/v0.3.2/Church-Recorder-0.3.2.apk",
-  "sha256": "f9de1ee16004c792b139eb2719db4594a69afb63ade434761ff29dcde0c8fcd3",
-  "notes": "Church Recorder 0.3.2\n\n- Support the newer Listen to Church audio player configuration used by Prairie Sage and other churches.\n- Preserve the player-provided MP3 URL suffix and HTTPS trusted-host checks.\n\nInstall over your existing app. Settings, selections and recordings remain. Physical-phone recording verification remains."
+  "versionCode": 8,
+  "versionName": "0.4.0",
+  "apkUrl": "https://github.com/tjadek007-gif/church-recorder-updates/releases/download/v0.4.0/Church-Recorder-0.4.0.apk",
+  "sha256": "178da0780eee1901ed5fcbe0101c3362955db09e5a3f8a4686f25c862566177f",
+  "notes": "Church Recorder 0.4.0\n\n- Play saved recordings and live church audio in a foreground playback service, continuing when switching apps or locking the phone.\n- Add notification and lock-screen play/pause/stop controls, audio-focus handling, and pause on headphone disconnection.\n- Add a playback progress bar with elapsed/total time and seeking for saved recordings; live listening shows elapsed time. Active recordings show elapsed recording time and current file size.\n- Show a main-screen download/install prompt for available updates, alongside automatic checks and optional Wi-Fi downloads. Android still requires installation approval.\n- Search the library by church, alias, recording state, or date.\n- Automatically remove recordings not saved to Downloads after 30 days, using daily Android maintenance and app-open cleanup. Existing recordings get a fresh 30-day grace period; active recordings and current playback are protected. Saving to Downloads marks the library copy as kept.\n- Put country, state/province, time-difference and recording-enabled filters in one collapsible panel. Time differences use current church and personal time zones, including half-hour offsets.\n- Replace generic recorder errors with specific safe messages for HTTP/access failures, missing MP3, DNS, timeout, and TLS problems. No credentials or signed URLs are shown.\n\nStop monitoring and listening before installation. Install over the existing app to retain settings and recordings. Background operation and audio routes still require physical-phone verification."
 }
