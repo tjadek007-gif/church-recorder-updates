@@ -1,23 +1,21 @@
 # Church Recorder for Android
 
-An independent Listen to Church companion for automatic recording and background listening. Android 8.0 or later is required.
+Listen to and automatically record church services on your phone. Version 0.5.0 includes **240 public church links directly in the app**. No Listen to Church account, sign-in, or bookmark import is required.
 
-## Install or update
+## Install and share
 
-Download the APK from [Releases](https://github.com/tjadek007-gif/church-recorder-updates/releases), or use **Settings → Check for updates now** in the app. Stop monitoring and listening, then install over the existing app to retain recordings and settings. Android asks before installation.
+Download [Church Recorder 0.5.0](https://github.com/tjadek007-gif/church-recorder-updates/releases/download/v0.5.0/Church-Recorder-0.5.0.apk) on an Android 8.0 or newer phone. You can share that APK or its download link. Each installation receives the same church directory and keeps its own settings and recordings.
 
-## Version 0.4.0
+For an existing installation, stop monitoring and listening, then install over the existing app or use **Settings → Check for updates now**. Android requires approval to install. Future updates use the public GitHub update feed.
 
-- Background live and saved-recording playback with notification and lock-screen controls.
-- Saved-recording seek bar, elapsed/total time, live elapsed time, and active recording time/size.
-- Text search plus collapsible country, state/province, time-difference and recording-enabled filters. Telegram location groups and automatic church time zones remain.
-- Library search by church, alias, date or recording state.
-- Unsaved app recordings expire after 30 days. Existing recordings get a fresh 30-day grace period. **Save MP3 to Downloads** marks the library copy as kept. Active recording and current playback are protected; files in Downloads are never deleted. Android may defer background cleanup.
-- Automatic update checks, optional Wi-Fi downloads, and main-screen download/install prompts.
-- Specific safe recorder diagnostics. If Prairie Sage still fails on the phone, report the exact message; successful PC probes do not establish the phone failure.
+## Use
 
-Account, themes and recording settings are in Settings. Google-linked accounts can use the official email sign-in-link flow described in the app.
+Open the app, find a church, and tap **Listen live**, or enable **Record this church** and **Start monitoring**. New directory entries start with recording off. Library search, playback seeking, background audio, country/state and time-difference filters, recording-enabled filtering, themes, and recording downloads are included.
 
-81 automated checks passed. Physical-phone background playback, long live recording and installation UI still need device verification. Monitoring needs internet, battery and storage.
+Public pages are used without personal account cookies. All directory pages were checked on November 16, 2026: 239 expose MP3 audio and Paxton exposes AAC, both supported. Gentry requires account access; Kelowna, Swan River, and SJV Centreville return not found. Those four links are excluded. A public page/address check does not mean a church is currently live.
 
-This public repository hosts releases and the update feed. It contains no account sessions, private recordings, or signing keys. This is an independent project, not the official Listen to Church app.
+Unsaved app recordings expire after 30 days, with a fresh grace period for older recordings. Save to Downloads to keep a copy. Files in Downloads, active recording, and current playback are protected from automatic cleanup.
+
+91 automated checks passed. Physical-phone live/background recording and installation UI still require device verification. The APK does not contain account sessions, personal selections, private recordings, or signing keys.
+
+This is an independent companion, not the official Listen to Church app.
